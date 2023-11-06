@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(images/egypt-palestine-two-flags-textile-260nw-1962367801.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+header{
+    height: 50px;
+    background-image: url(images/closeup-shot-waving-flag-palestine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h3{
+    font-size: 25px;
+    padding: 8px 50px;
+    color: rgb(255, 255, 255);
+}
+span{
+    color: #ffbf00;
+}
+.container{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    margin: auto;
+    margin-top: 50px;
+    width: 470px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.707);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card h2{
+    font-size: 35px;
+}
+.card img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card h2, pre, a{
+    margin: 10px 0;
+}
+pre{
+    font-weight: bolder;
+    text-wrap: wrap;
+    word-break: break-all;
+}
+.card a{
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.card a:hover{
+    background-color: #155724;
+    color: white;
+    border: none;
+}
+.none{
+    transition: .5s;
+    margin: 20px 0;
+    display: none;
+}
+input{
+    background-color: #76000039;
+    color: rgb(0, 0, 0);
+    width: 70%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px 10px;
+    margin: 10px 0;
+    display: none;
+}
+.count{
+    display: none;
+}
+h1{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    display: none;
+}
